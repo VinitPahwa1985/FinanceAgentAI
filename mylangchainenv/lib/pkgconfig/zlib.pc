@@ -1,0 +1,13 @@
+prefix=/Users/vinitpahwa/Documents/AI/langchainprojects/FinanceAgentAI/mylangchainenv
+exec_prefix=/Users/vinitpahwa/Documents/AI/langchainprojects/FinanceAgentAI/mylangchainenv
+libdir=/Users/vinitpahwa/Documents/AI/langchainprojects/FinanceAgentAI/mylangchainenv/lib
+sharedlibdir=/Users/vinitpahwa/Documents/AI/langchainprojects/FinanceAgentAI/mylangchainenv/lib
+includedir=/Users/vinitpahwa/Documents/AI/langchainprojects/FinanceAgentAI/mylangchainenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
