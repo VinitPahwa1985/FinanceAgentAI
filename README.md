@@ -93,3 +93,7 @@ Serve the Playground App:
 
 if __name__ == "__main__":: Checks if the script is being run directly.
 serve_playground_app("playground:app", reload=True): Starts the Playground app with reloading enabled, allowing for live updates during development.
+
+## Demo
+
+![alt text](image.png)
